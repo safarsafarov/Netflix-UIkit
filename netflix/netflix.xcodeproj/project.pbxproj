@@ -16,6 +16,7 @@
 		8BA8EC5D2918C4DB00F7E246 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8EC5C2918C4DB00F7E246 /* MainTabBarViewController.swift */; };
 		8BA8EC622918C4DC00F7E246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8EC612918C4DC00F7E246 /* Assets.xcassets */; };
 		8BA8EC652918C4DC00F7E246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8EC632918C4DC00F7E246 /* LaunchScreen.storyboard */; };
+		8BD715B9291A7AE500AA10E9 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD715B8291A7AE500AA10E9 /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8BA8EC612918C4DC00F7E246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA8EC642918C4DC00F7E246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA8EC662918C4DC00F7E246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD715B8291A7AE500AA10E9 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,11 @@
 		8BA8EC572918C4DB00F7E246 /* netflix */ = {
 			isa = PBXGroup;
 			children = (
+				8BD715B7291A7AB600AA10E9 /* Managers */,
+				8BD715B6291A7AAB00AA10E9 /* Resources */,
+				8BD715B5291A7A9500AA10E9 /* Views */,
+				8BD715B3291A7A8300AA10E9 /* Models */,
+				8BD715B4291A7A8900AA10E9 /* ViewModels */,
 				8B355464291A3F31001D70B3 /* Controllers */,
 				8BA8EC582918C4DB00F7E246 /* AppDelegate.swift */,
 				8BA8EC5A2918C4DB00F7E246 /* SceneDelegate.swift */,
@@ -82,6 +89,42 @@
 				8BA8EC662918C4DC00F7E246 /* Info.plist */,
 			);
 			path = netflix;
+			sourceTree = "<group>";
+		};
+		8BD715B3291A7A8300AA10E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BD715B4291A7A8900AA10E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8BD715B5291A7A9500AA10E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BD715B8291A7AE500AA10E9 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8BD715B6291A7AAB00AA10E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8BD715B7291A7AB600AA10E9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +199,7 @@
 			files = (
 				8B35546C291A400B001D70B3 /* SearchViewController.swift in Sources */,
 				8BA8EC5D2918C4DB00F7E246 /* MainTabBarViewController.swift in Sources */,
+				8BD715B9291A7AE500AA10E9 /* CollectionViewTableViewCell.swift in Sources */,
 				8B35546E291A401C001D70B3 /* DownloadsViewController.swift in Sources */,
 				8BA8EC592918C4DB00F7E246 /* AppDelegate.swift in Sources */,
 				8BA8EC5B2918C4DB00F7E246 /* SceneDelegate.swift in Sources */,
