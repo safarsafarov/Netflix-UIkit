@@ -1,4 +1,3 @@
-//
 //  CollectionViewTableViewCell.swift
 //  netflix
 //
