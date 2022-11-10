@@ -2,13 +2,13 @@
 //  HomeViewController.swift
 //  netflix
 //
-//  Created by Safar Safarov on 08/11/22.
+//  Created by Safar Safarov on 15/11/22.
 //
 
 import UIKit
 
 class HomeViewController: UIViewController {
-    
+
     private let homeFeedTable: UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
@@ -24,13 +24,10 @@ class HomeViewController: UIViewController {
         homeFeedTable.dataSource = self
     }
     
-
     override func viewDidLayoutSubviews() {
-        super.viewDidLoad()
+        super.viewDidLayoutSubviews()
         homeFeedTable.frame = view.bounds
-        // Do any additional setup after loading the view.
     }
-
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
@@ -39,18 +36,14 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         return 20
     }
     
-    
-    func tableView(_ tableView:  UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 20
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CollectionViewTableViewCell.identifier, for: indexPath) as? CollectionViewTableViewCell else {
             return UITableViewCell()
         }
-         
-        return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -58,6 +51,6 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 40
+        return 20
     }
 }

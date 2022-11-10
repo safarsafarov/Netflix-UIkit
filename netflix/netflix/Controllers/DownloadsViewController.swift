@@ -2,20 +2,22 @@
 //  DownloadsViewController.swift
 //  netflix
 //
-//  Created by Safar Safarov on 08/11/22.
+//  Created by Safar Safarov on 15/11/22.
 //
 
 import UIKit
 
-class DownloadsViewController: UIViewController {
+class DownloadsViewController: UITableViewCell {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemCyan
-        // Do any additional setup after loading the view.
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
     }
-    
 
-   
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
 
 }
