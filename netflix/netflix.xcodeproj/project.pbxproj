@@ -17,6 +17,7 @@
 		8BA8EC5D2918C4DB00F7E246 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8EC5C2918C4DB00F7E246 /* MainTabBarViewController.swift */; };
 		8BA8EC622918C4DC00F7E246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8EC612918C4DC00F7E246 /* Assets.xcassets */; };
 		8BA8EC652918C4DC00F7E246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8EC632918C4DC00F7E246 /* LaunchScreen.storyboard */; };
+		8BB50A8129266CAD000BA7CB /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB50A8029266CAD000BA7CB /* HeroHeaderUIView.swift */; };
 		8BD715B9291A7AE500AA10E9 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD715B8291A7AE500AA10E9 /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		8BA8EC612918C4DC00F7E246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA8EC642918C4DC00F7E246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA8EC662918C4DC00F7E246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB50A8029266CAD000BA7CB /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		8BD715B8291A7AE500AA10E9 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				8BD715B8291A7AE500AA10E9 /* CollectionViewTableViewCell.swift */,
+				8BB50A8029266CAD000BA7CB /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7FBA082923ABE3007A8348 /* DownloadsViewController.swift in Sources */,
+				8BB50A8129266CAD000BA7CB /* HeroHeaderUIView.swift in Sources */,
 				8BA8EC5D2918C4DB00F7E246 /* MainTabBarViewController.swift in Sources */,
 				8BD715B9291A7AE500AA10E9 /* CollectionViewTableViewCell.swift in Sources */,
 				8B7FBA0A2923AC1F007A8348 /* SearchViewController.swift in Sources */,
