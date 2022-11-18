@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B35546A291A3FFB001D70B3 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B355469291A3FFB001D70B3 /* UpcomingViewController.swift */; };
+		8B5ACA392927AD24000A549A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5ACA382927AD24000A549A /* APICaller.swift */; };
 		8B7FBA002923A98F007A8348 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7FB9FF2923A98F007A8348 /* HomeViewController.swift */; };
 		8B7FBA022923A99F007A8348 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7FBA012923A99F007A8348 /* UpcomingViewController.swift */; };
 		8B7FBA082923ABE3007A8348 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7FBA072923ABE3007A8348 /* DownloadsViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		8B355469291A3FFB001D70B3 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		8B5ACA382927AD24000A549A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		8B7FB9FF2923A98F007A8348 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8B7FBA012923A99F007A8348 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		8B7FBA072923ABE3007A8348 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		8B5ACA352927ACE1000A549A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8B5ACA382927AD24000A549A /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		8BA8EC4C2918C4DB00F7E246 = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +90,7 @@
 		8BA8EC572918C4DB00F7E246 /* netflix */ = {
 			isa = PBXGroup;
 			children = (
-				8BD715B7291A7AB600AA10E9 /* Managers */,
+				8B5ACA352927ACE1000A549A /* Managers */,
 				8BD715B6291A7AAB00AA10E9 /* Resources */,
 				8BD715B5291A7A9500AA10E9 /* Views */,
 				8BD715B3291A7A8300AA10E9 /* Models */,
@@ -124,13 +134,6 @@
 			children = (
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		8BD715B7291A7AB600AA10E9 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +212,7 @@
 				8BD715B9291A7AE500AA10E9 /* CollectionViewTableViewCell.swift in Sources */,
 				8B7FBA0A2923AC1F007A8348 /* SearchViewController.swift in Sources */,
 				8B7FBA022923A99F007A8348 /* UpcomingViewController.swift in Sources */,
+				8B5ACA392927AD24000A549A /* APICaller.swift in Sources */,
 				8B7FBA002923A98F007A8348 /* HomeViewController.swift in Sources */,
 				8BA8EC592918C4DB00F7E246 /* AppDelegate.swift in Sources */,
 				8BA8EC5B2918C4DB00F7E246 /* SceneDelegate.swift in Sources */,
