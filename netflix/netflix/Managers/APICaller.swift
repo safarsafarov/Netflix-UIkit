@@ -9,6 +9,8 @@ import Foundation
 
 
 struct Constants {
+    
+    // The api key can be taken from themoviedb.org, you need to create an account to get the secret key.
     static let API_KEY = "79352769a5691712be3e62c682c4a768"
     static let baseURL = "https://api.themoviedb.org"
 }
@@ -38,14 +40,14 @@ class APICaller {
     }
     
     
-    func getTrendingTvs(completion: @escaping (Result<[String], Error>) -> Void) {
+    func getTrendingTvs(completion: @escaping (Result<[Tv], Error>) -> Void) {
         guard let url = URL(string: "\(Constants.baseURL)/3/3trending/tv/day?api_key=\(Constants.API_KEY)") else {return}
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, _, error in
             guard let data = data, error == nil else {
                 return
             }
             do {
-                let results = try JSONSerialization.jsonObject(with: data, options: .fragmentsAllowed)
+                let results = try JSONDecoder().decode(TrendingTvResponse.self, from: data)
                 print(results)
                 
             } catch {
