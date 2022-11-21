@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class TitleCollectionViewCell: UICollectionViewCell {
     
