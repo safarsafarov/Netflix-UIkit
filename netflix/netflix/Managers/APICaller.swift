@@ -6,8 +6,8 @@
 //
 
 import Foundation
-// 79352769a5691712be3e62c682c4a768
 
+// API_KEY is public thus I don't quite use moviedb. You can test this project using current API key
 struct Constants {
     static let API_KEY = "79352769a5691712be3e62c682c4a768"
     static let baseURL = "https://api.themoviedb.org"
